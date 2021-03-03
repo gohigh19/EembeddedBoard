@@ -1,0 +1,180 @@
+(ExpressProject "stm32h750"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "h:\onedrive\kiritio\onedrive - abc(china)ltd\lib\orcad\orcad_library.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\stm32h750.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "3")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (IREFReportFile "E:\CANDENCE\STM32_H750_V1\SCH\STM32H750.csv")
+    (IREFViewOutput "0")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\STM32H750.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\stm32h750.csv"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\stm32h750.dsn")
+      (Path "Design Resources" ".\stm32h750.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\stm32h750.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources" ".\stm32h750.dsn" "SCHEMATIC1" "camera"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 948"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 26 1532 26 537")
+        (Scroll "219 260")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "E:\CANDENCE\STM32_H750_V2\SCH\STM32H750.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "camera"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1562 52 567")
+        (Scroll "-246 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\CANDENCE\STM32_H750_V2\SCH\STM32H750.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "peripheral"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1588 78 593")
+        (Scroll "219 168")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "E:\CANDENCE\STM32_H750_V2\SCH\STM32H750.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "lcd")))
+  (MPSSessionName "Administrator")
+  (PartMRUSelector
+    ("HEADER 20X2"
+      (FullPartName "HEADER 20X2.Normal")
+      (LibraryName
+         "D:\CANDENCE\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CH340E
+      (FullPartName "CH340E.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (NPN
+      (FullPartName "NPN.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (S8050
+      (FullPartName "S8050.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (XC6206P152MR
+      (FullPartName "XC6206P152MR.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (XC6206P282MR
+      (FullPartName "XC6206P282MR.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "D:\CANDENCE\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\CANDENCE\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (XTAL
+      (FullPartName "XTAL.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (XTAL_3225
+      (FullPartName "XTAL_3225.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (STM32H750VBT6
+      (FullPartName "STM32H750VBT6B.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "1"))
+    (ov2640_FPC_40P
+      (FullPartName "ov2640_FPC_40P.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (3inch_mcu_lcd_touch
+      (FullPartName "3inch_mcu_lcd_touch.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (3inch_mcu_lcd
+      (FullPartName "3inch_mcu_lcd.Normal")
+      (LibraryName
+         "H:\ONEDRIVE\KIRITIO\ONEDRIVE - ABC(CHINA)LTD\LIB\ORCAD\ORCAD_LIBRARY.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Candence\Cadence\Cadence_SPB_17.2-2016\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))
